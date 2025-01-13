@@ -4,7 +4,7 @@
 /// <summary>
 /// 認識資料類型
 /// </summary>
-public class Class_2_Variable : MonoBehaviour
+public class Class_2_DateType : MonoBehaviour
 {
     // 變數語法 ：
     // 修飾詞 資料類型 變名稱 指定預設值;

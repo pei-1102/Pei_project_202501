@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Practice_2_ : MonoBehaviour
+public class Practice_2_DateType_ : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
