@@ -128,8 +128,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1838431701}
+  - component: {fileID: 1838431702}
   m_Layer: 0
-  m_Name: "\u8AB2\u7A0B3"
+  m_Name: "\u8AB2\u7A0B_3_\u6B04\u4F4D\u5C6C\u6027\u3001\u4E8B\u4EF6\u8207\u904B\u7B97\u5B50"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -150,6 +151,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1838431702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838431700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d3e47e93dad4114e8d10ed8c9eec1e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lv: 1
+  moveSpeed: 2.5
 --- !u!1 &1913981511
 GameObject:
   m_ObjectHideFlags: 0
