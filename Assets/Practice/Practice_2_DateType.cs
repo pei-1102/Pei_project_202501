@@ -1,16 +1,8 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Practice_2_DateType_ : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public float variableFloat = 7.7f;
+    public double variableDouble = 0.1235;
+    public decimal variableDecimal = 1.23456789m;
 }

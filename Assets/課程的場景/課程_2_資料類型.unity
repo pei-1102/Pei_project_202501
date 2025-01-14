@@ -276,6 +276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1480047805}
   - component: {fileID: 1480047804}
+  - component: {fileID: 1480047806}
   m_Layer: 0
   m_Name: Practice_2_DateType
   m_TagString: Untagged
@@ -295,6 +296,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f05b0555541851349a639eaad54d29d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 999
+  weapon: "\u4E09\u9805\u4E4B\u529B"
 --- !u!4 &1480047805
 Transform:
   m_ObjectHideFlags: 0
@@ -310,6 +313,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1480047806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480047803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3fa7f449c299e40bab3a6c83aace55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableFloat: 7.7
+  variableDouble: 0.1235
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

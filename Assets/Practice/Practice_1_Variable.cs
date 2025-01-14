@@ -1,10 +1,10 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
-public class Practice_1_Variable
+public class Practice_1_Variable : MonoBehaviour
 {
     public int price = 999;
     private float jumpHeight = 77.5f;
-    public string weapon = "¤T¶µ¤§¤O";
-    private bool getDragonSoul = true
+    public string weapon = "ä¸‰é …ä¹‹åŠ›";
+    private bool getDragonSoul = true;
 }
 
