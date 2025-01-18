@@ -40,6 +40,7 @@ public class Class_3_Operator : MonoBehaviour
     #endregion
 
     #region 輸出訊息
+
     // 使用Unity 的事件
     // 1. 必須在腳本後面添加： MonoBehaviour (繼承)
     // 2. 使用關鍵字快速完成，例如：輸入 Awake 挑選要使用的事件按 Enter
@@ -102,7 +103,30 @@ public class Class_3_Operator : MonoBehaviour
 
         #endregion
 
+        #region 布林邏輯運算子
+        //羅輯否定.：將布林值變成相的值
 
+
+        Debug.Log("<color=#f93>--- 布林邏輯運算子 ---</color>");
+        Debug.Log(!true);                                   // False
+        Debug.Log(!false);                                  // True
+        bool boolVarTrue = true, boolVarFalse = false;     
+        Debug.Log(boolVarTrue);                            // False
+        Debug.Log(boolVarFalse);                          // True
+
+        Debug.Log("<color=#f93>--- 並且與或者 &&．|| ---</color>");
+        // 並且：比較兩個布林值，只要有一個 false 結果就是 false
+        Debug.Log(true && true);
+        Debug.Log(true && false);
+        Debug.Log(false && true);
+        Debug.Log(false && false);
+        // 或者：比較兩個布林值，只要有一個 true 結果就是 true
+        Debug.Log(true || true);
+        Debug.Log(true || false);
+        Debug.Log(false || true);
+        Debug.Log(false || false);
+
+        #endregion
 
 
     }
