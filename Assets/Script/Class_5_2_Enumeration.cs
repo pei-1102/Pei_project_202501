@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Diagnostics;
+using UnityEngine;
 
 namespace KID
 {
@@ -25,16 +26,16 @@ namespace KID
         private void Awake()
         {
             // 取得列舉的值 (Get) 抓出值
-            Debug.Log(season);
+            UnityEngine.Debug.Log(season);
             // 取得列舉的整數值
-            Debug.Log((int)season);
+            UnityEngine.Debug.Log((int)season);
 
             // 設定列舉的值 (Set) 修改值
             season = Season.Winter;
-            Debug.Log(season);
+            UnityEngine.Debug.Log(season);
             // 透過數值設定列舉
             season = (Season)2;
-            Debug.Log(season);  
+            UnityEngine.Debug.Log(season);  
             #endregion
 
         }
@@ -50,7 +51,29 @@ namespace KID
         // 開始事件：在喚醒事件後執行一次 (初始化)
         private void Start()
         {
-            Debug.Log((int)item);
+            UnityEngine.Debug.Log((int)item);
+
+            // 列舉與判斷式 Switch
+            // Switch + Tab * 2 > 修改 switch_on 為列舉 > Enter *2 快速完成
+            switch (item)
+            {
+                case Item.None:
+                    UnityEngine.Debug.Log("沒有道具");
+                    break;
+                case Item.Coin:
+                    UnityEngine.Debug.Log("金幣");
+                    break;
+                case Item.RedWater:
+                case Item.BlueWater:
+                    UnityEngine.Debug.Log("藥水道具");
+                    break;
+                case Item.Chicken:
+                    UnityEngine.Debug.Log("炸雞");
+                    break;
+                default:
+                    UnityEngine.Debug.Log("這不是道具");
+                    break;
+            }
         }
     }
 }
